@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horizontal Table</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-color: bisque;
+      }
+      table {
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+        border-collapse: collapse;
+        margin: 300px auto;
+        background-color: aliceblue;
+      }
+      thead th {
+        border-bottom: 4px double rgba(0, 0, 0, 30%);
+        padding: 20px;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      tr {
+        border-bottom: 2px solid rgba(0, 0, 0, 30%);
+      }
+      tr:hover{
+        background-color: white;
+      }
+      td {
+        padding: 19px;
+        color: rgba(0, 0, 0, 80%);
+      }
+    </style>
+  </head>
+  <body>
+    <table id="first-table">
+      <thead>
+        <th>Employee Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>Salary</th>
+        <th>Phone</th>
+        <th>Email</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>Doe</td>
+          <td>30</td>
+          <td>Male</td>
+          <td>Sales Manager</td>
+          <td>$60,000</td>
+          <td>123-456-7890</td>
+          <td>john.doe@gmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane</td>
+          <td>Smith</td>
+          <td>28</td>
+          <td>Female</td>
+          <td>Marketing</td>
+          <td>$55,000</td>
+          <td>098-765-4321</td>
+          <td>jane.smith@gmail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Emily</td>
+          <td>Johnson</td>
+          <td>Female</td>
+          <td>35</td>
+          <td>HR</td>
+          <td>$65,000</td>
+          <td>555-123-4567</td>
+          <td>emily.jonson@gmiai.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
